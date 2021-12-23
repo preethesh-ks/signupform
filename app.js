@@ -96,6 +96,7 @@ app.post("/failure", function (req, res) {
 app.listen(process.env.PORT || 3000, function () {
     console.log("server working on port 3000");
 });
+console.log("hi how are");
 
 //3b320177898cd2f91070b8da372df60c-us20
 //uid e7a7d6b35d.
