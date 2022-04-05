@@ -66,7 +66,7 @@ transporter.sendMail(mailOptions,function(err,sucess){
     const url = "https://us20.api.mailchimp.com/3.0/lists/e7a7d6b35d"
     const options = {
         method: "POST",
-        auth: "darkness:02211ff2c2b7b84dde7749aae34fe13a-us20"
+        auth: "darkness:APIKEYHERE-us20"
     }
     const request = https.request(url, options, function (response) {
         if (response.statusCode === 200) {
@@ -98,6 +98,6 @@ app.listen(process.env.PORT || 3000, function () {
 });
 console.log("hi how are");
 
-//3b320177898cd2f91070b8da372df60c-us20
-//uid e7a7d6b35d.
+//
+//uid
 //test id emmit
