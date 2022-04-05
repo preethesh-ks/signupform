@@ -28,8 +28,8 @@ app.post("/", function (req, res) {
 let transporter = nodemailer.createTransport({
     service: "gmail",
     auth:{
-        user:"crystalclearray@gmail.com",
-        pass:"trhwfcandjpyphyp"
+        user:"ggg@gmail.com",
+        pass:""
     },
     tls:{
         rejectUnauthorized: false,
@@ -100,4 +100,4 @@ console.log("hi how are");
 
 //
 //uid
-//test id emmit
+//test id emmi
